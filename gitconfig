@@ -1,0 +1,9 @@
+[alias]
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+
+[user]
+	name = Aengus McMillin
+	email = aengusmcmillin@gmail.com

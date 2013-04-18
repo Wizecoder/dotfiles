@@ -1,0 +1,4 @@
+imap jk <esc>
+imap <c-u> <esc>bviwU
+
+iabbrev eslf self

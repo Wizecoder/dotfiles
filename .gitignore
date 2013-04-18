@@ -1,0 +1,9 @@
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+._*
+Thumps.db
+
+.Spotlight-V100
+.Trashes
