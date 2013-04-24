@@ -1,4 +1,5 @@
 imap jk <esc>
 imap <c-u> <esc>bviwU
+nmap ; A;<esc>
 
 iabbrev eslf self

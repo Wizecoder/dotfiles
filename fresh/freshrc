@@ -1,0 +1,6 @@
+fresh Wizecoder/fresh bin/fresh --bin
+fresh git/gitconfig --file
+fresh git/gitignore_global --file
+fresh tmux/tmux.conf --file
+fresh zsh/zshrc --file
+fresh vim/vimrc --file
