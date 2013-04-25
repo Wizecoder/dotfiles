@@ -49,4 +49,6 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 # Custom Haskell Projects
 PATH=$PATH:/Users/aengusmcmillin/Dropbox/Development/haskell/capture:/Users/aengusmcmillin/Dropbox/Development/haskell/archive
 
+source ~/.fresh/build/shell.sh
+
 
