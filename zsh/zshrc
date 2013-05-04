@@ -39,6 +39,8 @@ alias cap='capture'
 alias mac='cd ~/Dropbox/Development/OLLY/Mac/Olly'
 alias mogen='mogenerator -O Source/Models -m Resources/DataModel.xcdatamodeld/DataModel.xcdatamodel --template-var arc=true'
 alias mosync='mogenerator --base-class SyncableManagedObject --template-var arc=true -O Classes/Models -m Resources/Other\ Sources/DataModel.xcdatamodeld/DataModel_v8.xcdatamodel'
+alias :e=vim
+alias :q=exit
 
 # Customize to your needs...
 export PATH=/usr/local/share/python:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/texlive/2012/bin/universal-darwin:/usr/local/go/bin:/Users/aengusmcmillin/.cabal/bin
