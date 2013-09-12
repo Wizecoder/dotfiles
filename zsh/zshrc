@@ -41,9 +41,13 @@ alias mogen='mogenerator -O Source/Models -m Resources/DataModel.xcdatamodeld/Da
 alias mosync='mogenerator --base-class SyncableManagedObject --template-var arc=true -O Classes/Models -m Resources/Other\ Sources/DataModel.xcdatamodeld/DataModel_v8.xcdatamodel'
 alias :e=vim
 alias :q=exit
+alias latexmk='latexmk -pdf -pvc'
+alias startjenkins='launchctl load ~/Library/LaunchAgents/homebrew.mxcl.jenkins.plist'
+alias stopjenkins='launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.jenkins.plist'
+alias mark='open -a Marked.app'
 
 # Customize to your needs...
-export PATH=/usr/local/share/python:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/texlive/2012/bin/universal-darwin:/usr/local/go/bin:/Users/aengusmcmillin/.cabal/bin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/texlive/2012/bin/universal-darwin:/usr/local/go/bin:/Users/aengusmcmillin/.cabal/bin
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [[ -s "/Users/aengusmcmillin/scripts/na.sh" ]] && source "/Users/aengusmcmillin/scripts/na.sh"
@@ -53,4 +57,8 @@ PATH=$PATH:/Users/aengusmcmillin/Dropbox/Development/haskell/capture:/Users/aeng
 
 source ~/.fresh/build/shell.sh
 
+[[ -s /Users/aengusmcmillin/.nvm/nvm.sh ]] && . /Users/aengusmcmillin/.nvm/nvm.sh # This loads NVM
 
+eval "$(rbenv init -)"
+
+export LC_ALL="en_US.UTF-8"

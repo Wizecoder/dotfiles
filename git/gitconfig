@@ -7,3 +7,6 @@
 [user]
 	name = Aengus McMillin
 	email = aengusmcmillin@gmail.com
+
+[core]
+	editor = "vim"

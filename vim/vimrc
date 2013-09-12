@@ -3,14 +3,15 @@
 set nocompatible
 
 """ Vundle
-filetype off
+""" filetype off
 set rtp+=~/.vim/bundle/vundle
 call vundle#rc()
 
 Bundle 'gmarik/vundle'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'msanders/cocoa.vim'
-Bundle 'wincent/command-t'
+Bundle 'pangloss/vim-javascript'
+Bundle 'kien/ctrlp.vim'
 Bundle 'msanders/snipmate.vim'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/nerdtree'
@@ -18,6 +19,11 @@ Bundle 'scrooloose/syntastic'
 Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'tpope/vim-fugitive'
+Bundle 'Pychimp/vim-luna'
+Bundle 'Shougo/unite.vim'
+Bundle 'xolox/vim-misc'
+Bundle 'xolox/vim-notes'
+Bundle 'cwoac/nvim'
 
 """ Filetypes/completion
 filetype plugin on
@@ -30,6 +36,9 @@ let g:syntastic_python_checkers=['flake8']
 set number
 set backspace=eol,start,indent
 
+set tabstop=4
+set shiftwidth=4
+
 """ Appearance
 syntax on
 let g:solarized_termtrans=1
@@ -41,4 +50,11 @@ set ruler
 set showmatch
 set colorcolumn=80
 
-imap jk <Esc>
+
+inoremap jk <Esc>
+inoremap kj <Esc>
+
+let mapleader=","
+
+let g:notes_directories = ['~/Dropbox/nvAlt']
+let g:notes_suffix = '.txt'

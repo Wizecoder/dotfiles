@@ -1,3 +1,29 @@
+" Case-insensitive searching
+set ignorecase
+
+" But case-sensitive if expression contains a capital letter
+set smartcase 
+
+" Default to global substitutions on lines
+set gdefault
+
+" Use system pasteboard
+set pasteboard
+
+" Map <space>b to toggle breakpoint on current line
+nmap <space>b :xccmd toggleBreakpointAtCurrentLine<CR>
+
+" Use <space>cm to toggle comments for selection
+nmap <space>cm :xccmd commentAndUncommentCurrentLines<CR>
+
+" Map open quickly to control p to mimic ctrl-p in vim
+nmap <C-p> :xccmd openQuickly<CR>
+
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+nnoremap <C-h> <C-w>h
+
 imap jk <esc>
 imap <c-u> <esc>bviwU
 nmap ; A;<esc>
