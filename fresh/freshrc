@@ -6,3 +6,4 @@ fresh zsh/zshrc --file
 fresh vim/vimrc --file
 fresh vim/xvimrc --file
 fresh vim/ideavimrc --file
+fresh extra --file
