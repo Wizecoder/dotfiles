@@ -2,8 +2,14 @@ fresh Wizecoder/fresh bin/fresh --bin
 fresh git/gitconfig --file
 fresh git/gitignore_global --file
 fresh tmux/tmux.conf --file
-fresh zsh/zshrc --file
 fresh vim/vimrc --file
 fresh vim/xvimrc --file
 fresh vim/ideavimrc --file
+fresh other/inputrc --file
 fresh extra --file
+fresh Wizecoder/prezto runcoms/zlogin --file
+fresh Wizecoder/prezto runcoms/zlogout --file
+fresh Wizecoder/prezto runcoms/zpreztorc --file
+fresh Wizecoder/prezto runcoms/zprofile --file
+fresh Wizecoder/prezto runcoms/zshenv --file
+fresh Wizecoder/prezto runcoms/zshrc --file
