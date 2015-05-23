@@ -3,5 +3,11 @@
 - link:
     ~/.dotfiles: ''
     ~/.vim: vim/
-    ~/.zprezto: prezto/
     ~/.tmux.conf: tmux/tmux.conf
+    ~/.zprezto: prezto/
+    ~/.zlogin: prezto/runcoms/zlogin
+    ~/.zlogout: prezto/runcoms/zlogout
+    ~/.zpreztorc: prezto/runcoms/zpreztorc
+    ~/.zprofile: prezto/runcoms/zprofile
+    ~/.zshenv: prezto/runcoms/zshenv
+    ~/.zshrc: prezto/runcoms/zshrc
