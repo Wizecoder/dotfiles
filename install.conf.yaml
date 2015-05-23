@@ -4,6 +4,7 @@
     ~/.dotfiles: ''
     ~/.vim: vim/
     ~/.tmux.conf: tmux/tmux.conf
+    ~/.gitconfig: git/gitconfig
     ~/.zprezto: prezto/
     ~/.zlogin: prezto/runcoms/zlogin
     ~/.zlogout: prezto/runcoms/zlogout
