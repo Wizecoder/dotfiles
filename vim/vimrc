@@ -29,6 +29,7 @@ Bundle 'Pychimp/vim-luna'
 Bundle 'Shougo/unite.vim'
 Bundle 'xolox/vim-misc'
 Bundle 'cwoac/nvim'
+Bundle 'rust-lang/rust.vim'
 
 " ----------------------------------------------------------------
 " moving around, searching and patterns
