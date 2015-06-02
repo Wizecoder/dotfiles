@@ -30,7 +30,6 @@ Bundle 'Shougo/unite.vim'
 Bundle 'xolox/vim-misc'
 Bundle 'cwoac/nvim'
 Bundle 'rust-lang/rust.vim'
-Bundle 'phildawes/racer'
 
 " ----------------------------------------------------------------
 " moving around, searching and patterns
@@ -163,8 +162,7 @@ inoremap kj <Esc>
 
 let mapleader=","
 
-let g:notes_directories = ['~/Dropbox/nvAlt']
-let g:notes_suffix = '.txt'
-
-let g:racer_cmd = "/Users/aengusmcmillin/projects/racer/target/release/racer"
-let $RUST_SRC_PATH="/Users/aengusmcmillin/projects/rust-source/rustc-nightly/src"
+let $LOCALFILE=expand("~/.vimrc_local")
+if filereadable($LOCALFILE)
+	source $LOCALFILE
+endif
