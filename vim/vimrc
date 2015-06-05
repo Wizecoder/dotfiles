@@ -42,25 +42,23 @@ Bundle 'rust-lang/rust.vim'
 " ----------------------------------------------------------------
 " displaying text
 " ----------------------------------------------------------------
+set number					" show line numbers
+set relativenumber			" show relative line numbers
 
 " ----------------------------------------------------------------
 " syntax, highlighting and spelling
 " ----------------------------------------------------------------
-
-""" Appearance
-syntax on
+syntax on					
 let g:solarized_termtrans=1
 set t_Co=16
 set background=light
 colorscheme solarized
-set laststatus=2
-set ruler
-set showmatch
 set colorcolumn=80
 
 " ----------------------------------------------------------------
 " multiple windows
 " ----------------------------------------------------------------
+set laststatus=2
 
 " ----------------------------------------------------------------
 " multiple tab pages
@@ -81,6 +79,7 @@ set colorcolumn=80
 " ----------------------------------------------------------------
 " messages and info
 " ----------------------------------------------------------------
+set ruler
 
 " ----------------------------------------------------------------
 " selecting text
@@ -89,6 +88,9 @@ set colorcolumn=80
 " ----------------------------------------------------------------
 " editing text
 " ----------------------------------------------------------------
+set showmatch
+map - ddp
+map _ ddkP
 
 " ----------------------------------------------------------------
 " tabs and indenting
@@ -147,7 +149,6 @@ let g:tex_flavor='latex'
 let g:syntastic_python_checkers=['flake8']
 
 """ General
-set number
 set backspace=eol,start,indent
 
 set tabstop=4
