@@ -4,6 +4,7 @@
     ~/.dotfiles: ''
     ~/.vim: vim/
     ~/.vimrc: vim/vimrc
+    ~/.nvimrc: vim/vimrc
     ~/.tmux.conf: tmux/tmux.conf
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global

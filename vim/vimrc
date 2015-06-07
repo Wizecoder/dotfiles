@@ -12,24 +12,24 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
 """ Let Vundle manage Vundle
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/Vundle'
 
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'msanders/cocoa.vim'
-Bundle 'pangloss/vim-javascript'
-Bundle 'kien/ctrlp.vim'
-Bundle 'msanders/snipmate.vim'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'scrooloose/nerdtree'
-Bundle 'scrooloose/syntastic'
-Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'tpope/vim-fugitive'
-Bundle 'Pychimp/vim-luna'
-Bundle 'Shougo/unite.vim'
-Bundle 'xolox/vim-misc'
-Bundle 'cwoac/nvim'
-Bundle 'rust-lang/rust.vim'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'msanders/cocoa.vim'
+Plugin 'pangloss/vim-javascript'
+Plugin 'kien/ctrlp.vim'
+Plugin 'msanders/snipmate.vim'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/syntastic'
+Plugin 'bling/vim-airline'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'tpope/vim-fugitive'
+Plugin 'Pychimp/vim-luna'
+Plugin 'Shougo/unite.vim'
+Plugin 'xolox/vim-misc'
+Plugin 'cwoac/nvim'
+Plugin 'rust-lang/rust.vim'
 
 " ----------------------------------------------------------------
 " moving around, searching and patterns
@@ -50,7 +50,7 @@ set relativenumber			" show relative line numbers
 " ----------------------------------------------------------------
 syntax on					
 let g:solarized_termtrans=1
-set t_Co=16
+set t_Co=256
 set background=light
 colorscheme solarized
 set colorcolumn=80
@@ -140,7 +140,6 @@ map _ ddkP
 " various
 " ----------------------------------------------------------------
 
-
 """ Filetypes/completion
 filetype plugin on
 filetype indent on
@@ -155,8 +154,6 @@ set tabstop=4
 set shiftwidth=4
 
 set hidden
-
-
 
 inoremap jk <Esc>
 inoremap kj <Esc>
